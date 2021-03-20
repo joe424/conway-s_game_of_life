@@ -1,6 +1,8 @@
 Conway's Game of Life
 ===
 
+![image](https://github.com/joe424/conway-s_game_of_life/blob/main/gif/compare.gif)
+
 ## File Structure
 ```
 conway/
@@ -24,17 +26,19 @@ conway/
 │   ├── kernel.cu
 │   ├── kernel.h
 │   └── cuda.pro
-└── no_qt/
-    ├── Makefile
-    ├── thread.cpp
-    ├── omp.cpp
-    ├── serial.cpp
-    └── cudasrc/
-        ├── main.cpp
-        ├── cuda.cpp
-        ├── cuda.h
-        ├── kernel.cu
-        └── kernel.h
+├── no_qt/
+│   ├── Makefile
+│   ├── thread.cpp
+│   ├── omp.cpp
+│   ├── serial.cpp
+│   └── cudasrc/
+│       ├── main.cpp
+│       ├── cuda.cpp
+│       ├── cuda.h
+│       ├── kernel.cu
+│       └── kernel.h
+└── gif/
+    └── compare.gif
 
 ```
 
