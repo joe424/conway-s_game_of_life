@@ -44,8 +44,6 @@ There are four folders in our project.
 In `serial/`, `openmp/` and `cuda/` are the implementations with Qt library, which can show the part of the cell's stat (50\*50) with graphic.
 In `no_qt/` is the implementation without Qt library, gather with versions of serial, pthread, OpenMP and CUDA.
 
-> note that `serial/`, `openmp/` and `cuda/` can only run on port `37094` where is the only port with Qt library.
-
 for build and run in `serial/`:
 ```
 $ cd serial; make; ./serial [size] [iter]
